@@ -2,10 +2,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    [SerializeField]
-    private Transform rightHand;
-    [SerializeField]
-    private Animator animator;
+    public Animator Animator;
     
     
     [SerializeField]
@@ -14,15 +11,13 @@ public class Weapon : MonoBehaviour
 
     private void Start()
     {
-        rightHand = GetComponentInParent<PlayerController>().RightHand;
-        animator = GetComponentInParent<PlayerController>().Animator;
     }
 
     private void Update()
     {
         if (!GetComponentInParent<PlayerController>().IsKnockBack)
         {
-            animator.StopPlayback();
+            Animator.StopPlayback();
             return;
         }
         if(knockBackTime < 0.5f)
@@ -33,16 +28,20 @@ public class Weapon : MonoBehaviour
 
         GetComponentInParent<PlayerController>().IsKnockBack = false;
         knockBackTime = 0;
-        //animator.Play("Idle_Normal_SwordAndShield", 0);
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer == 6)
+        if(other.gameObject.layer != 6 && other.gameObject.layer != 7)
         {
-            
-            animator.StopPlayback();
-            GetComponentInParent<PlayerController>().IsKnockBack = true;
+            return;
         }
+
+        if(other.gameObject.layer == 7)
+        {
+            //Read Enemys Component, consume enemys stamina and return.
+        }
+        Animator.StopPlayback();
+        GetComponentInParent<PlayerController>().IsKnockBack = true;
     }
 
     
