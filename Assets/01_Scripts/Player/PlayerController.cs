@@ -36,6 +36,9 @@ public class PlayerController : MonoBehaviour, ISubject
     private float maxStamina = 100;
     private float currentStamina;
     private float staminaRestoreSpeed = 10;
+    private bool emptyStamina;
+    private bool isRoll;
+    private bool isParry;
     #endregion
 
     void Start()
@@ -57,7 +60,6 @@ public class PlayerController : MonoBehaviour, ISubject
         Parry();
         RestoreStamina();
         NotifyObservers();
-        
     }
 
     
@@ -65,16 +67,10 @@ public class PlayerController : MonoBehaviour, ISubject
 
     private void OnAnimatorIK(int layerIndex)
     {
-        if (!IsKnockBack)
-        {
-
-        }
-
         if (IsKnockBack)
         {
             Animator.SetTrigger("Knockback");
             IsKnockBack = false;
-
         }
     }
 
@@ -97,12 +93,41 @@ public class PlayerController : MonoBehaviour, ISubject
     public void DamageEnd()
     {
         isDamaged = false;
+        canAction = true;
     }
 
     public void Damage(float _damage)
     {
         isDamaged = true;
-        currentHP -= _damage;
+        if(Animator.GetBool("Guard"))
+        {
+            currentStamina -= _damage;
+            if(currentStamina >= 0)
+            {
+                return;
+            }
+        }
+        if (isRoll)
+        {
+            return;
+        }
+
+        if(isParry)
+        {
+            //AttackCancel And Get Knockback
+            return;
+        }
+
+        if (!canAction)
+        {
+            currentHP -= _damage * 1.2f;
+
+        }
+        else
+        {
+            currentHP -= _damage;
+        }
+        canAction = false;
         if(currentHP < 0)
         {
             currentHP = 0;
@@ -112,6 +137,7 @@ public class PlayerController : MonoBehaviour, ISubject
 
     public void KnockbackEnd()
     {
+        
     }
 
     #region Action
@@ -246,12 +272,32 @@ public class PlayerController : MonoBehaviour, ISubject
 
     }
 
+    public void ParryStart()
+    {
+        isParry = true;
+    }
+
+    public void ParryEnd()
+    {
+        isParry = false;
+    }
+
+    public void RollStart()
+    {
+        isRoll = true;
+    }
+
+    public void RollEnd()
+    {
+        isRoll = false;
+    }
 
     private void RollAndSprint()
     {
         if(currentStamina <= 0)
         {
             Animator.SetBool("Run", false);
+            emptyStamina = true;
             return;
         }
         if(Input.GetKey(KeyCode.Space))
@@ -260,6 +306,10 @@ public class PlayerController : MonoBehaviour, ISubject
             if(spaceInputTime > 0.3f)
             {
                 if(Animator.GetBool("Guard"))
+                {
+                    return;
+                }
+                if(emptyStamina)
                 {
                     return;
                 }
@@ -276,6 +326,8 @@ public class PlayerController : MonoBehaviour, ISubject
                 Animator.SetBool("Run", false);
                 return;
             }
+            canAction = false;
+            currentStamina -= 10;
             Animator.SetTrigger("Roll");
         }
         
@@ -287,18 +339,24 @@ public class PlayerController : MonoBehaviour, ISubject
 
     private void RestoreStamina()
     {
-        if (canAction)
+        if (!canAction)
         {
-            if (currentStamina >= maxStamina)
-            {
-                return;
-            }
-            if (Animator.GetBool("Run"))
-            {
-                return;
-            }
-            currentStamina += staminaRestoreSpeed * Time.deltaTime;
+            return;
         }
+        if (currentStamina >= maxStamina)
+        {
+            return;
+        }
+        if (Animator.GetBool("Run"))
+        {
+            return;
+        }
+        currentStamina += staminaRestoreSpeed * Time.deltaTime;
+        if (currentStamina >= maxStamina * 0.7f)
+        {
+            emptyStamina = false;
+        }
+
     }
     
 
