@@ -3293,6 +3293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893008140}
   - component: {fileID: 1893008139}
+  - component: {fileID: 1893008141}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -3310,7 +3311,7 @@ Animator:
   m_GameObject: {fileID: 1893008138}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9035850883732af4daf57c888e1fefce, type: 3}
-  m_Controller: {fileID: 9100000, guid: 92efc5a6051953a4db45a52f72df44cc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 751cd0461737b1645ba583133d17c567, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -3339,6 +3340,21 @@ Transform:
   - {fileID: 1602780960}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1893008141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893008138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2541a736aa49c1449a13f654705939b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1932803646
 GameObject:
   m_ObjectHideFlags: 0
@@ -4339,13 +4355,7 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 1
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'B-f_middle_02.R'\n\tTransform 'B-thigh.L'\n\tTransform
-    'B-forearm.R'\n\tTransform 'B-upper_arm.L'\n\tTransform 'B-shoulder.R'\n\tTransform
-    'B-f_ring_02.R'\n\tTransform 'B-f_ring_01.L'\n\tTransform 'B-upperChest'\n\tTransform
-    'B-hand.L'\n\tTransform 'B-f_middle_02.L'\n\tand more ...\n\tFrom animation clip
-    'mixamo.com'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0

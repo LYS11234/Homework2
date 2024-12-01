@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Homework2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|d:\\unityprojects\\homework2\\assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|d:\\unityprojects\\homework2\\assets\\01_scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\enemy\\behaviortree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\enemy\\behaviortree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\player\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,38 +38,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\PlayerController.cs",
               "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwEwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwEwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T06:03:55.411Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BehaviorTree.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Enemy\\BehaviorTree.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\Enemy\\BehaviorTree.cs",
+              "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Enemy\\BehaviorTree.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\Enemy\\BehaviorTree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:11:00.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Enemy.cs",
               "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T10:48:17.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ObserverPattern.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\ObserverPattern.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\ObserverPattern.cs",
@@ -77,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\GameManager.cs",
@@ -89,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CameraMovement.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\CameraMovement.cs",
@@ -101,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Weapon.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\Weapon.cs",
