@@ -62,8 +62,14 @@ public class PlayerController : MonoBehaviour, ISubject
         NotifyObservers();
     }
 
-    
-    
+    private void FixedUpdate()
+    {
+        Vector3 rot = transform.rotation.eulerAngles;
+        rot.x = 0;
+        rot.z = 0;
+        transform.rotation = Quaternion.Euler(rot);
+    }
+
 
     private void OnAnimatorIK(int layerIndex)
     {
@@ -76,9 +82,10 @@ public class PlayerController : MonoBehaviour, ISubject
 
     public void AttackDelay()
     {
+        canAction = true;
         sword.enabled = false;
         shield.enabled = false;
-        canAction = true;
+        
         
     }
 
@@ -170,6 +177,11 @@ public class PlayerController : MonoBehaviour, ISubject
             canAction = false;
             Animator.SetTrigger("Attack");
         }
+    }
+
+    public void AttackEnd()
+    {
+        sword.enabled = false;
     }
 
     private void GuardOn()

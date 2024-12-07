@@ -1,21 +1,27 @@
 using UnityEngine;
+using System;
 
 public class Weapon : MonoBehaviour
 {
     public Animator Animator;
-    
-    
+     private Action Damage;
+
+
     [SerializeField]
     private float knockBackTime;
-
+    private bool isKnockback;
+    [SerializeField]
+    private float attack;
+   
 
     private void Start()
     {
+
     }
 
     private void Update()
     {
-        if (!GetComponentInParent<PlayerController>().IsKnockBack)
+        if (!isKnockback)
         {
             Animator.StopPlayback();
             return;
@@ -26,22 +32,24 @@ public class Weapon : MonoBehaviour
             return;
         }
 
-        GetComponentInParent<PlayerController>().IsKnockBack = false;
+        isKnockback = false;
         knockBackTime = 0;
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer != 6 && other.gameObject.layer != 7)
+
+
+        if (other.TryGetComponent<PlayerController>(out PlayerController playerController))
         {
-            return;
+            playerController.Damage(attack);
+        }
+        else if (other.TryGetComponent<Enemy>(out Enemy enemy))
+        {
+            enemy.Damage(attack);
         }
 
-        if(other.gameObject.layer == 7)
-        {
-            //Read Enemys Component, consume enemys stamina and return.
-        }
         Animator.StopPlayback();
-        GetComponentInParent<PlayerController>().IsKnockBack = true;
+        isKnockback = true;
     }
 
     
