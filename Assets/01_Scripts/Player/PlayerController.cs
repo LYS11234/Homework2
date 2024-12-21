@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour, ISubject
     private bool emptyStamina;
     private bool isRoll;
     private bool isParry;
+    private bool isDead;
     #endregion
 
     void Start()
@@ -52,6 +53,10 @@ public class PlayerController : MonoBehaviour, ISubject
     // Update is called once per frame
     void Update()
     {
+        if(isDead)
+        {
+            return;
+        }
         Move();
         RollAndSprint();
         GuardOn();
@@ -64,6 +69,10 @@ public class PlayerController : MonoBehaviour, ISubject
 
     private void FixedUpdate()
     {
+        if (isDead)
+        {
+            return;
+        }
         Vector3 rot = transform.rotation.eulerAngles;
         rot.x = 0;
         rot.z = 0;
@@ -73,6 +82,10 @@ public class PlayerController : MonoBehaviour, ISubject
 
     private void OnAnimatorIK(int layerIndex)
     {
+        if (isDead)
+        {
+            return;
+        }
         if (IsKnockBack)
         {
             Animator.SetTrigger("Knockback");
@@ -137,6 +150,7 @@ public class PlayerController : MonoBehaviour, ISubject
         canAction = false;
         if(currentHP < 0)
         {
+            isDead = true;
             currentHP = 0;
         }
         Animator.SetTrigger("Damage");

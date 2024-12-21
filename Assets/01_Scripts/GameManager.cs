@@ -37,4 +37,10 @@ public class GameManager : MonoBehaviour, IObserver
     {
         staminaImage.fillAmount = _staminaPer;
     }
+    public void SettingButton()
+    {
+        GameObject prefab = Resources.Load<GameObject>("UIPrefab/Settings");
+
+        Instantiate(prefab);
+    }
 }

@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Homework2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|d:\\unityprojects\\homework2\\assets\\01_scripts\\player\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\ui\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\ui\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\player\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\ui\\startsceneconstroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\ui\\startsceneconstroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\observerpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\observerpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|d:\\unityprojects\\homework2\\assets\\01_scripts\\ui\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\ui\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\ui\\loadingscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\ui\\loadingscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|D:\\UnityProjects\\Homework2\\assets\\01_scripts\\player\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0E179C-2E3F-D446-3864-0DF22945CA40}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,39 +54,90 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\PlayerController.cs",
               "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAADwv80AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwEkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T06:03:55.411Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\Settings.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\UI\\Settings.cs",
+              "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\Settings.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\UI\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:17:59.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoadingSceneManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\LoadingSceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\UI\\LoadingSceneManager.cs",
+              "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\LoadingSceneManager.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\UI\\LoadingSceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:55:50.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\Database.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\UI\\Database.cs",
+              "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\Database.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\UI\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:49:21.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartSceneConstroller.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\StartSceneConstroller.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\UI\\StartSceneConstroller.cs",
+              "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\UI\\StartSceneConstroller.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\UI\\StartSceneConstroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:46:06.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Weapon.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\Weapon.cs",
               "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\Weapon.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T06:14:03.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T06:14:03.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Enemy.cs",
               "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAowGgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T10:48:17.494Z"
             },
@@ -84,7 +151,8 @@
               "RelativeToolTip": "Assets\\01_Scripts\\ObserverPattern.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:17:39.309Z"
+              "WhenOpened": "2024-11-25T01:17:39.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,21 +162,23 @@
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\GameManager.cs",
               "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:14:23.445Z"
+              "WhenOpened": "2024-11-25T01:14:23.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CameraMovement.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player\\CameraMovement.cs",
               "ToolTip": "D:\\UnityProjects\\Homework2\\Assets\\01_Scripts\\Player\\CameraMovement.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player\\CameraMovement.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:44:36.732Z"
+              "WhenOpened": "2024-11-24T18:44:36.732Z",
+              "EditorCaption": ""
             }
           ]
         }

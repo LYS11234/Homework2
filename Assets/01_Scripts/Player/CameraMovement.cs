@@ -27,6 +27,12 @@ public class CameraMovement : MonoBehaviour
 
     private void CameraRotate()
     {
+        if (Input.GetKey(KeyCode.LeftAlt))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            return;
+        }
+        Cursor.lockState = CursorLockMode.Locked;
         float _xRotation = Input.GetAxisRaw("Mouse Y");
         float _cameraRotationX = _xRotation * lookSensitivity;
         float _yRotation = -Input.GetAxisRaw("Mouse X");
@@ -38,5 +44,5 @@ public class CameraMovement : MonoBehaviour
         currentCameraRotationY = Mathf.Clamp(currentCameraRotationY, -1e+12f, 1e+12f);
         this.transform.localEulerAngles = new Vector3(currentCameraRotationX, currentCameraRotationY, 0f);
         Quaternion rotation = Quaternion.Euler(player.rotation.x, currentPlayerRotation, player.rotation.z);
-    }    
+    }
 }
